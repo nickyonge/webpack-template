@@ -19,16 +19,17 @@ The Webpack config file, **webpack.config.cjs**, is also on [GitHub Gist](https:
 If you're using TypeScript or simply want to enforce JS type safety, drag and replace the contents from the /typesafe folder into the root directory. Also consider viewing the [TypeScript webpack docs](https://webpack.js.org/guides/typescript/).
 
 ### Update Important Files
-Make some modifications to the following files
+Make modifications to the following files:
 
 #### package.json
 In **package.json**, edit the following fields:
 - `"name":` &rarr; Your github username and repo name
   - eg, `"@nickyonge/webpack-template"`
-- `"license":` &rarr; The license you want to use. Not sure? Visit [choosealicense.com](https://choosealicense.com/), or use one of these common choices:
+- `"license":` &rarr; The license you're using. Not sure? Visit [choosealicense.com](https://choosealicense.com/), or use one of these common choices:
   - `"GPL-3.0-only"` &rarr; The [GPL3 License](https://choosealicense.com/licenses/gpl-3.0/), allows for any use *that is also open source*. This is my preferred license, because [FOSS💖](https://en.wikipedia.org/wiki/Free_and_open-source_software), but it's up to you!
   - `"MIT"` &rarr; The [MIT License](https://choosealicense.com/licenses/mit/). Common, allows for any use case, including closed-source.
   - `"ISC"` &rarr; The [ISC License](https://choosealicense.com/licenses/isc/). Functionally identical to the MIT License, with slightly streamlined language (though not quite as commonplace).
+  - `"Unlicense"` &rarr; [The Unlicense](https://unlicense.org/) is an anti-license, committing your work to the public domain. It's what this repo uses, because (as a template) it's intended to be able to be used by anyone, for any purpose, inclusive of changing the license terms.
   - `""` or undefined &rarr; No license, [you're on your own](https://choosealicense.com/no-permission/) ;)
 
 The following package.json fields aren't strictly necessary unless you're publishing a package, or expect your project to be used by many people, and can be removed - but it's still not a bad idea to fill them out. 
@@ -46,6 +47,11 @@ The following package.json fields aren't strictly necessary unless you're publis
 
 > [!IMPORTANT]
 > For `license`, `author`, `homepage`, `repository`, and `bugs`, remember to at least remove the demo values. Those were included as leaving those fields blank can cause parsing issues (and is straight-up not allowed for `bugs`), and to serve as friendly nudges to modify them later. If you publish your project and notice that the issue tracker link is a plea for banana pancake recipes, that's more likely to elicit a change than an empty field 🍌🥞
+
+#### LICENSE
+Be sure to modify your license file itself, not just the license field in package.json, unless you specifically want to continue using [the Unlicense](https://unlicense.org/).
+
+To change an existing license, click the license ⚖️ icon in your repository, and edit the text. Copy the text from your preferred license - see above, or visit [choosealicense.com](https://choosealicense.com/).
 
 #### README.md
 Change your **README.md** to something that's not this, even if it's just "My Cool Repo, readme coming soon". Consider using [this handy template I found](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc) after thirty seconds of googling! Or simply delete it if you're a documentationless heathen 😘
