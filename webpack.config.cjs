@@ -1,24 +1,30 @@
 /* WEBPACK TEMPLATE SETUP 
  * webpack.config.cjs
  * webpack.config.js
- * 
+   
  * All the steps for getting a new Webpack-based website started via VS Code! 
- * 
- * This script itself is a file called webpack.config.cjs and is used to tell Webpack how to build your site.
- * Start with the prerequisites below! 
- * 
+   This script itself is a file called webpack.config.cjs and is used to tell Webpack how to build your site.
+   
+ * If you want to skip to a Webpack-functional website that's ready to go, see the Webpack Template repository:
+   https://github.com/nickyonge/webpack-template
+   
+ * If you want to set up your own Webpack project (recommended to do at least once), start with the prerequisites below! 
+    
+   
  * NOTE: The filename can be webpack.config.cjs or .js at your discretion. Using .cjs is recommended. Details at end of guide. 
- * 
+   
+   
  *  --- PREREQUISITES --- 
-   - Install VS Code, https://code.visualstudio.com
-   - Install Node.js, https://www.nodejs.org
+   
+ * - Install VS Code, https://code.visualstudio.com
+ * - Install Node.js, https://www.nodejs.org
         Note: During installation, you should generally allow the installer to set up other packages like Chocolatey
         If a popup appears installing additional tools, just keep Pressing Any Key until the installation is complete.
         Helpful but optional: Node.js tutorial for VS Code: https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
-   - Create your directory folder,
+ * - Create your directory folder,
         "My Cool Website That Is Going To Make The World Better For Everyone",
         and place this file in it. Open it up in VS Code
-   - Time to get started!
+ * - Time to get started!
  * 
  * 
  *  --- SHORT SUMMARY --- 
@@ -100,20 +106,21 @@
     This Webpack setup is not configured for it, as the intent was to keep this setup lightweight. 
     For more info on using ECMAScript, see: https://webpack.js.org/api/module-methods/ 
     For other config file languages, see: https://webpack.js.org/configuration/configuration-languages/ 
- * 
- * 
+   
+   
  * If you want to dig deeper, here's Webpack's official Getting Started guide: 
- * https://webpack.js.org/guides/getting-started/
- *
+   https://webpack.js.org/guides/getting-started/
+  
  * by Nick Yonge
- * https://gist.github.com/nickyonge/bb9fe46458c16e1cd560bce505e4af39
+   https://gist.github.com/nickyonge/bb9fe46458c16e1cd560bce505e4af39
+
 */
 
-// tutorial complete~
+// tutorial complete ~
 // done? consider deleting the above tutorial section, or moving it to the end of this file.
 // you may end up modifying webpack config quite a bit! Might as well have the content up top.
 
-// More info about webpack.config.js, see the config docs: https://webpack.js.org/configuration/
+// For more on webpack.config.js, see the config docs: https://webpack.js.org/configuration/ 
 
 
 
@@ -127,7 +134,7 @@
 const PRODUCTION_BUILD = false;
 
 /** Your site title; the text that will appear in the browser tab. @type {string} */
-const SITE_TITLE = '💖 Template 💖';
+const SITE_TITLE = '💖 Webpack is for Lovers 💖';
 
 /** Name of your source code folder. It should be in the same directory as `webpack.config.js` 
  * itself. Don't put `webpack.config.js` *in* the source folder. @type {string} */
@@ -181,7 +188,7 @@ module.exports = () => {
     return {
 
         /** The runtime build environment, either `"production"` or `"development"`
-         * @see {@linkcode PRODUCTION_BUILD} */ 
+         * @see {@linkcode PRODUCTION_BUILD} */
         mode: environment,
 
         /** Reference to {@linkcode SRC_FOLDER} build path */
