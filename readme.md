@@ -1,24 +1,27 @@
 # Webpack Template
-
 Template repository for creating a new project via Webpack, fast.
 
 The Webpack config file, **webpack.config.cjs**, is also on [GitHub Gist](https://gist.github.com/nickyonge/bb9fe46458c16e1cd560bce505e4af39) if you'd prefer to initialize your project from scratch.
 
 ## Installation 
-
 - You should have [Node.js](https://nodejs.org/en) installed
-- Clone this repo
-- Open VS Code (or your IDE of choice) to your project folder, and enter these two commands: 
-  - `npm i` (short for `npm install`)
-  - `npm start`
+- Clone this repo locally
+   - Or just download as a .zip, Webpack functionality isn't contingent on having a GitHub repo
+- Open VS Code (or your IDE of choice) to your project folder, and run these terminal commands: 
+  - `npm i` (short for `npm install`), which installs all the packages defined in `package.json`
+  - `npm start`, which launches Webpack and a dev server. Your browser should automatically open up a new tab to `localhost:8080`
 - You're good to go!
   - Whenever you repoen your project and want to get back to work, run `npm start` again
- 
-> [!NOTE]
-> If you're using TypeScript or simply want to enforce JS type safety, drag and replace the contents from the /typesafe folder into the root directory. Also consider viewing the [TypeScript webpack docs](https://webpack.js.org/guides/typescript/).
 
-### After Install
+## After Install
 
+### If Using TypeScript
+If you're using TypeScript or simply want to enforce JS type safety, drag and replace the contents from the /typesafe folder into the root directory. Also consider viewing the [TypeScript webpack docs](https://webpack.js.org/guides/typescript/).
+
+### Update Important Files
+Make some modifications to the following files
+
+#### package.json
 In **package.json**, edit the following fields:
 - `"name":` &rarr; Your github username and repo name
   - eg, `"@nickyonge/webpack-template"`
@@ -43,3 +46,6 @@ The following package.json fields aren't strictly necessary unless you're publis
 
 > [!IMPORTANT]
 > For `license`, `author`, `homepage`, `repository`, and `bugs`, remember to at least remove the demo values. Those were included as leaving those fields blank can cause parsing issues (and is straight-up not allowed for `bugs`), and to serve as friendly nudges to modify them later. If you publish your project and notice that the issue tracker link is a plea for banana pancake recipes, that's more likely to elicit a change than an empty field 🍌🥞
+
+#### README.md
+Change your **README.md** to something that's not this, even if it's just "My Cool Repo, readme coming soon". Consider using [this handy template I found](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc) after thirty seconds of googling! Or simply delete it if you're a documentationless heathen 😘
