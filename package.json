@@ -1,0 +1,40 @@
+{
+    "name": "webpack_template",
+    "version": "0.1.0",
+    "description": "",
+    "main": "webpack.config.cjs",
+    "scripts": {
+        "typecheck": "tsc -p .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --open",
+        "start:dev": "webpack serve --mode=development --open",
+        "start:prod": "webpack serve --mode=production --open",
+        "build": "webpack --mode=production",
+        "preview": "npx http-server dist"
+    },
+    "keywords": [],
+    "homepage": "https://www.google.com/search?q=i+forgot+to+specify+a+homepage+so+here+is+a+%22cinnamon+bun+recipe%22",
+    "repository": {
+        "type": "git",
+        "url": "https://www.google.com/search?q=i+forgot+to+specify+a+git+repo+url+so+here+is+a+%22homemade+ice+cream+recipe%22"
+    },
+    "bugs": {
+        "url": "https://www.google.com/search?q=i+forgot+to+specify+a+help+url+so+here+is+a+%22banana+pancakes+recipe%22"
+    },
+    "author": "https://www.google.com/search?q=i+forgot+to+specify+an+author+so+here+is+a+%22decadent+chocolate+cake+recipe%22",
+    "license": "https://www.google.com/search?q=i+forgot+to+specify+a+license+so+here+is+a+%22quick+and+easy+brownies+recipe%22",
+    "dependencies": {
+        "jquery": "^3.7.1",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.5",
+        "mini-css-extract-plugin": "^2.9.4",
+        "postcss-loader": "^8.2.0",
+        "webpack": "^5.103.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.2",
+        "webpack-remove-empty-scripts": "^1.1.1"
+    }
+}

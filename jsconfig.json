@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "ESNext",
+        "lib": [
+            "es2022",
+            "dom",
+            "dom.iterable"
+        ],
+    },
+    "include": [
+        "src"
+    ]
+}

@@ -1,0 +1,45 @@
+/* Inclusive Sans - Regular */
+@font-face {
+    font-family: 'Inclusive Sans';
+    src: url('../assets/fonts/inclusivesans/InclusiveSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/inclusivesans/InclusiveSans-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Inclusive Sans - Bold */
+@font-face {
+    font-family: 'Inclusive Sans';
+    src: url('../assets/fonts/inclusivesans/InclusiveSans-Bold.woff2') format('woff2'),
+        url('../assets/fonts/inclusivesans/InclusiveSans-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Inclusive Sans - Italic */
+@font-face {
+    font-family: 'Inclusive Sans';
+    src: url('../assets/fonts/inclusivesans/InclusiveSans-Italic.woff2') format('woff2'),
+        url('../assets/fonts/inclusivesans/InclusiveSans-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Inclusive Sans - Bold Italic */
+@font-face {
+    font-family: 'Inclusive Sans';
+    src: url('../assets/fonts/inclusivesans/InclusiveSans-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/inclusivesans/InclusiveSans-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+    /* font-family: 'CustomFont', sans-serif; */
+}
+
+i {
+    font-style: italic;
+    /* font-family: 'CustomFont', sans-serif; */
+}

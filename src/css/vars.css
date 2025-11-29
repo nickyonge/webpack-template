@@ -1,0 +1,14 @@
+:root {
+
+    --color-text-body: #171d25;
+    --color-text-body-light: #a4c4ef;
+    --color-innerDiv: #beeeef;
+    --color-bg-solid: #4680db;
+    --color-bg-gradient-1: #4e89db;
+    --color-bg-gradient-2: #4680db;
+    --color-bg-gradient-3: #225bc8;
+
+    --innerDiv-width: 213px;
+    --innerDiv-height: 69px;
+    --innerDiv-radius: 27px;
+}

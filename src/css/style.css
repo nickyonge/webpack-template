@@ -1,0 +1,37 @@
+@import 'vars.css';
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* body text appearance */
+    font-family: 'Inclusive Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10.5pt;
+    color: var(--color-text-body);
+    
+    /* body background */
+    background-color: var(--color-bg-solid);
+    background-image: radial-gradient(var(--color-bg-gradient-1), var(--color-bg-gradient-2) 42.0%, var(--color-bg-gradient-3) 127%);
+}
+
+.container {
+    /* a simple container, to ensure the correct positioning of the inner div */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    /* a simple div to contain a cute little message */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--innerDiv-width);
+    height: var(--innerDiv-height);
+    background-color: var(--color-innerDiv);
+    border-radius: var(--innerDiv-radius);
+    box-shadow: 0px 6px 8px #00000027;
+}

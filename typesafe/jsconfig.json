@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "checkJs": true,
+        "allowJs": true,
+        "lib": [
+            "es2022",
+            "dom",
+            "dom.iterable"
+        ],
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "global.d.ts",
+        "src"
+    ]
+}
