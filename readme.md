@@ -1,7 +1,5 @@
 # Webpack Template
-Template repository for creating a new project via Webpack, fast.
-
-The Webpack config file, **webpack.config.cjs**, is also on [GitHub Gist](https://gist.github.com/nickyonge/bb9fe46458c16e1cd560bce505e4af39) if you'd prefer to initialize your project from scratch.
+Easy-peasy template repository for creating a new project via Webpack, fast. Skip the setup, get to the dev.
 
 ## Installation 
 - You should have [Node.js](https://nodejs.org/en) installed
@@ -12,6 +10,9 @@ The Webpack config file, **webpack.config.cjs**, is also on [GitHub Gist](https:
   - `npm start`, which launches Webpack and a dev server. Your browser should automatically open up a new tab to `localhost:8080`
 - You're good to go!
   - Whenever you repoen your project and want to get back to work, run `npm start` again
+
+> [!NOTE]
+> The Webpack config file, **webpack.config.cjs**, is also on [GitHub Gist](https://gist.github.com/nickyonge/bb9fe46458c16e1cd560bce505e4af39) if you'd prefer to initialize your project from scratch.
 
 ## After Install
 
@@ -30,7 +31,7 @@ In **package.json**, edit the following fields:
   - `"MIT"` &rarr; The [MIT License](https://choosealicense.com/licenses/mit/). Common, allows for any use case, including closed-source.
   - `"ISC"` &rarr; The [ISC License](https://choosealicense.com/licenses/isc/). Functionally identical to the MIT License, with slightly streamlined language (though not quite as commonplace).
   - `"Unlicense"` &rarr; [The Unlicense](https://unlicense.org/) is an anti-license, committing your work to the public domain. It's what this repo uses, because (as a template) it's intended to be able to be used by anyone, for any purpose, inclusive of changing the license terms.
-  - `""` or undefined &rarr; No license, [you're on your own](https://choosealicense.com/no-permission/) ;)
+  - `""` or undefined &rarr; No license, [you're on your own](https://choosealicense.com/no-permission/) 😉
 
 The following package.json fields aren't strictly necessary unless you're publishing a package, or expect your project to be used by many people, and can be removed - but it's still not a bad idea to fill them out. 
 - `"version":` &rarr; To keep track of project versioning (update as needed)
